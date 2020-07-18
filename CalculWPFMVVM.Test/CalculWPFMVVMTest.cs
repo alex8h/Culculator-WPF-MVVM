@@ -19,9 +19,7 @@ namespace CalculWPFMVVM.Test
             int n = 2;
             int[] expacted = new int[] { 15, 25 };
             // Act.
-            CalculatorModel obj = new CalculatorModel(n);
-            int[] actual = new int[n];
-            actual = obj.Function(f, a, b, c, x, y, n);
+            int[] actual = Base.Function(f, a, b, c, x, y, n);
             // Assert.
             CollectionAssert.AreEqual(expacted, actual);
         }
@@ -38,9 +36,7 @@ namespace CalculWPFMVVM.Test
             int n = 1;
             int[] expacted = new int[] { 302 };
             // Act.
-            CalculatorModel obj = new CalculatorModel(n);
-            int[] actual = new int[n];
-            actual = obj.Function(f, a, b, c, x, y, n);
+            int[] actual = Base.Function(f, a, b, c, x, y, n);
             // Assert.
             CollectionAssert.AreEqual(expacted, actual);
         }
@@ -57,9 +53,7 @@ namespace CalculWPFMVVM.Test
             int n = 4;
             int[] expacted = new int[] { 7650, 25708472, 738495674, 1762996 };
             // Act.
-            CalculatorModel obj = new CalculatorModel(n);
-            int[] actual = new int[n];
-            actual = obj.Function(f, a, b, c, x, y, n);
+            int[] actual = Base.Function(f, a, b, c, x, y, n);
             // Assert.
             CollectionAssert.AreEqual(expacted, actual);
         }
@@ -76,9 +70,7 @@ namespace CalculWPFMVVM.Test
             int n = 3;
             int[] expacted = new int[] { -47799, -3041544, -334099 };
             // Act.
-            CalculatorModel obj = new CalculatorModel(n);
-            int[] actual = new int[n];
-            actual = obj.Function(f, a, b, c, x, y, n);
+            int[] actual = Base.Function(f, a, b, c, x, y, n);
             // Assert.
             CollectionAssert.AreEqual(expacted, actual);
         }
@@ -95,9 +87,7 @@ namespace CalculWPFMVVM.Test
             int n = 5;
             int[] expacted = new int[] { 1810980, 2614268, 7962890, 1408208, 82112558 };
             // Act.
-            CalculatorModel obj = new CalculatorModel(n);
-            int[] actual = new int[n];
-            actual = obj.Function(f, a, b, c, x, y, n);
+            int[] actual = Base.Function(f, a, b, c, x, y, n);
             // Assert.
             CollectionAssert.AreEqual(expacted, actual);
         }

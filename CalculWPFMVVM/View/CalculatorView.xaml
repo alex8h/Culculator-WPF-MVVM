@@ -72,16 +72,15 @@
                     <ListView>
                         <ListView.View>
                             <GridView>
-                                <GridViewColumn Width="52" >x</GridViewColumn>
-                                <GridViewColumn Width="52">y</GridViewColumn>
-                                <GridViewColumn Width="52" >f(x,y)</GridViewColumn>
+                                <GridViewColumn Width="55" >x</GridViewColumn>
+                                <GridViewColumn Width="55">y</GridViewColumn>
+                                <GridViewColumn Width="55" >f(x,y)</GridViewColumn>
                             </GridView>
                         </ListView.View>
                     </ListView>
                 </DockPanel>
 
 
-                <!--Понимаю, это не очень хорошо, но я не знаю как сделать эту таблицу по-другому-->
                 <DockPanel LastChildFill="False">
                     <TextBox Text="{Binding Args_x[0]}" PreviewTextInput="TextBox_PreviewTextInput" Width="55"/>
                     <TextBox Text="{Binding Args_y[0]}" PreviewTextInput="TextBox_PreviewTextInput" Width="55"/>
