@@ -10,4 +10,4 @@ Name| function
 **five** | f(x, y) = ax^5 + by^4 + c
 
 
-$$w^{n}$$
+\\( w^{n} \\)
