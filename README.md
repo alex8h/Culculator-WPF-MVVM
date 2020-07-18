@@ -10,4 +10,4 @@ Name| function
 **five** | f(x, y) = ax^5 + by^4 + c
 
 
-$$f(x,y)=ax+by^{0}+c$$
+$f(x,y)=ax+by^{0}+c$
